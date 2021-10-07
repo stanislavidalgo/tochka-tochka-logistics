@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>FTL: Прямая машина</h1>
+      </header>
+      <main>
+        <!-- section 1 -->
+
+        <div class="info">
+          <div class="counter">
+            <div class="dots">1</div>
+            <h2>Маршрут</h2>
+          </div>
+          <p>Откуда</p>
+          <input type="text" />
+          <p>Куда</p>
+          <input type="text" />
+        </div>
+
+        <!-- section 2 -->
+
+        <div class="info">
+          <div class="counter">
+            <div class="dots">2</div>
+            <h2>Транспорт</h2>
+          </div>
+          <div class="left-right">
+            <div class="left">
+              <p>Грузоподъёмность</p>
+              <select>
+                <option value="" disabled selected>Не выбрана</option>
+                <option value="" style="color: black">Вариант 1</option>
+                <option value="" style="color: black">Вариант 2</option>
+                <option value="" style="color: black">Вариант 3</option>
+                <option value="" style="color: black">Вариант 4</option>
+                <option value="" style="color: black">Вариант 5</option>
+              </select>
+            </div>
+            <div class="right">
+              <p>Способ погрузки</p>
+              <select>
+                <option value="" disabled selected>Задняя</option>
+                <option value="" style="color: black">Вариант 1</option>
+                <option value="" style="color: black">Вариант 2</option>
+                <option value="" style="color: black">Вариант 3</option>
+                <option value="" style="color: black">Вариант 4</option>
+                <option value="" style="color: black">Вариант 5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 3 -->
+
+        <div class="info">
+          <div class="counter">
+            <div class="dots">3</div>
+            <h2>Груз</h2>
+          </div>
+          <div class="left-right">
+            <div class="left">
+              <p>Тип груза</p>
+              <select>
+                <option value="" disabled selected>Не выбран</option>
+                <option value="" style="color: black">Вариант 1</option>
+                <option value="" style="color: black">Вариант 2</option>
+                <option value="" style="color: black">Вариант 3</option>
+                <option value="" style="color: black">Вариант 4</option>
+                <option value="" style="color: black">Вариант 5</option>
+              </select>
+            </div>
+            <div class="right-inp">
+              <p>Объявленная ценность, ₽</p>
+              <input type="text" placeholder="≥ 1" />
+            </div>
+          </div>
+          <div class="checked">
+            <input type="checkbox" />
+            <p>Требуется температурный режим</p>
+          </div>
+          <div class="temperature">
+            <div class="left">
+              <p>От, °C</p>
+              <input type="text" placeholder="-20" />
+            </div>
+            <div class="right">
+              <p>До, °C</p>
+              <input type="text" placeholder="+20" />
+            </div>
+          </div>
+        </div>
+
+        <!-- section 4 -->
+
+        <div class="info">
+          <div class="counter">
+            <div class="dots">4</div>
+            <h2>Время</h2>
+          </div>
+          <div class="distances">
+            <p>Когда прибыть на точку</p>
+            <p>700 км в день</p>
+          </div>
+          <div class="distance">
+            <div class="distance-upper">
+              <input type="radio" />
+              <span class="rectangle">НЕ ВЫБРАНО</span>
+            </div>
+            <div class="distance-lower">
+              <input type="radio" />
+              <span class="rectangle">НЕ ВЫБРАНО</span>
+            </div>
+          </div>
+          <div class="message">
+            <p>Комментарий к заказу</p>
+            <textarea
+              placeholder="Укажите особенности въезда натерриторию склада или подъезда к адресу"
+            ></textarea>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
